@@ -1,0 +1,51 @@
+.board {
+  outline: 2px solid rgb(134, 154, 189);
+}
+
+.row {
+  height: 35px;
+}
+
+.cell {
+  width: 35px;
+  height: 35px;
+  outline: 1px solid rgb(134, 154, 189);
+  display: inline-block;
+}
+
+.cell-green {
+  background-color: green;
+  border-radius: 25px;
+}
+
+.cell-red {
+  background-color: rgb(199, 114, 114);
+}
+
+.cell-purple {
+  background-color: purple;
+}
+
+.level, .value {
+  width: 7em;
+  height: 2em;
+  font-size: 0.8em;
+  color: darkblue;
+  font-weight: bold;
+}
+
+.start, .stop{
+width:4em;
+height:2.5em;
+font-size: 0.7em;
+}
+
+.start{
+  float: left;
+  color: green;
+}
+.stop{
+  float: right;
+  
+  color: red;
+}
